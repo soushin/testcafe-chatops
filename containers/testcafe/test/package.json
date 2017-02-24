@@ -1,0 +1,17 @@
+{
+  "directories": {
+    "test": "tests"
+  },
+  "author": "nsoushi",
+  "name": "testcafe-chatops",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node tests/remote.js"
+  },
+  "description": "",
+  "dependencies": {
+    "hapi": "^16.0.3",
+    "testcafe": "^0.12.0",
+    "request": "^2.79.0"
+  }
+}
