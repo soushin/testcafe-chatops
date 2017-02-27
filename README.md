@@ -14,6 +14,10 @@ Also this project challenged to use a remote url of TestCafe on ChatOps. note:se
 
 ![Overview of containers](https://raw.githubusercontent.com/nsoushi/testcafe-chatops/master/docs/testcafe_chatops_do_test.png)
 
+### Operations on the Slack
+
+![Overview of containers](https://raw.githubusercontent.com/nsoushi/testcafe-chatops/master/docs/testcafe_chatops_ops.png)
+
 ## How to try
 
 **1:setup**
