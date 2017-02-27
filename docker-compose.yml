@@ -7,7 +7,7 @@ services:
     ports:
       - 8080:8080
     environment:
-      HUBOT_SLACK_TOKEN: xoxb-135397894342-O33AYUbhcISxvPatqKXpiqAy
+      HUBOT_SLACK_TOKEN: {ENV_SLACK_API_TOKEN}
       TESTCAFE_WEBHOOK_URL: "http://testcafe:8124/webhook/do-test"
 
   testcafe:
