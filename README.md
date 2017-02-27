@@ -27,3 +27,5 @@ then setup a token into `./docker-compose.yml`
 docker-compose up -d
 ```
 
+## Additional Reports
+[This post](http://naruto-io.hatenablog.com/entry/2017/02/24/165107) reported how to build this project, sorry that supported only japanese.
