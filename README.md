@@ -4,7 +4,7 @@ This project contains E2E Test of sample using TestCafe.
 
 ## TestCafe + ChatOps
 
-Also this project challenged to use a remote url of TestCafe on ChatOps.
+Also this project challenged to use a remote url of TestCafe on ChatOps. note:send a report of test to `#random` room Of Slack.
 
 ### Until starting test and receiving a remote url
 
