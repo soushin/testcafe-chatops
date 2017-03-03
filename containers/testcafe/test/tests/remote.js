@@ -28,7 +28,7 @@ createTestCafe('localhost', 1337, 1338)
         remoteConnection.once('ready', () => {
 
             runner
-                .src('tests/test.js')
+                .src('tests/first-test.js')
                 .browsers(remoteConnection)
                 .reporter('custom-reporter')
                 .run()
@@ -39,11 +39,13 @@ createTestCafe('localhost', 1337, 1338)
                 })
                 .then(failedCount => {
                     remoteConnection.close();
+                    console.log(`failedCount:${failedCount}`);
                     console.log('process exit.');
                     process.exit();
                 })
                 .catch(function (err) {
                     remoteConnection.close();
+                    console.log(`error:${err}`);
                     console.log('process exit.');
                     process.exit();
                 });

@@ -2,5 +2,6 @@ fixture `Getting Started`
     .page `http://devexpress.github.io/testcafe/example`;
 
 test('My first test', async t => {
-    // Test code
+    const location = await t.eval(() => window.location);
+    await t.expect(location.pathname).eql('/testcafe/example/');
 });

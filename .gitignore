@@ -1,5 +1,8 @@
 .DS_Store
+.idea
 node_modules
 *node_modules/*
+
+containers/testcafe/test/tests/screenshots/*
 
 !.gitkeep
